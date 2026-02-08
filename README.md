@@ -63,7 +63,7 @@ The core wallet is `TBAWallet`, which inherits ERC-4337 validation logic and gua
 
 ## How It Works
 
-![TBA Wallet Architecture](assets/TBA_Wallet_Architecture.png)
+![TBA Wallet Architecture](public/TBA_Wallet_Architecture.png)
 
 The diagram shows the architecture of the proposed TBA Wallet design. For a basic TBA that follows the ERC6551 pattern, the contract inherits both IERC6551 interfaces, IERC165 and IERC1271 interfaces. The proposed additional designs ERC4337Compatible and GuardianCompatible can also be inherited by the TBA Wallet to achieve Basic AA functions and also guardians to recover the ownership of the TBA Wallet in case of any emergencies.
 
